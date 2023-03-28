@@ -1,4 +1,4 @@
-.TH _PRINTF 3 "April 2022"
+.TH _PRINTF 3 "march 2023"
 
 .SH NAME
 .B _printf\fR \- formatted output conversion
@@ -256,4 +256,4 @@ int main(void)
 printf(3)
 
 .SH AUTHOR
-Grace Effiong and Chiedozie Ukah
+Rachel Uneke and Nana Boa Benfor 

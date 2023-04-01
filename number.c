@@ -2,9 +2,9 @@
 
 /**
  * convert - converter function, a clone of itoa
- * @num: number
- * @base: base
- * @flags: argument flags
+ * @num: take number
+ * @base: use base numbers
+ * @flags: take argument flags
  * @params: paramater struct
  *
  * Return: string
@@ -43,7 +43,7 @@ char *convert(long int num, int base, int flags, params_t *params)
  * @ap: argument pointer
  * @params: the parameters struct
  *
- * Return: bytes printed
+ * Return: print the bytes 
  */
 int print_unsigned(va_list ap, params_t *params)
 {
@@ -62,11 +62,11 @@ int print_unsigned(va_list ap, params_t *params)
 
 
 /**
- * print_address - prints address
+ * print_address - prints out the address
  * @ap: argument pointer
  * @params: the parameters struct
  *
- * Return: bytes printed
+ * Return: print the bytes
  */
 int print_address(va_list ap, params_t *params)
 {

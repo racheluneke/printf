@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_char - prints character
+ * print_char - to print a character
  * @ap: argument pointer
  * @params: the parameters struct
  *
- * Return: number chars printed
+ * Return: amounts of chars printed
  */
 int print_char(va_list ap, params_t *params)
 {
@@ -42,11 +42,11 @@ int print_int(va_list ap, params_t *params)
 }
 
 /**
- * print_string - prints string
+ * print_string - to print a string
  * @ap: argument pointer
  * @params: the parameters struct
  *
- * Return: number chars printed
+ * Return: amount of chars printed
  */
 int print_string(va_list ap, params_t *params)
 {
@@ -98,7 +98,7 @@ int print_percent(va_list ap, params_t *params)
 }
 
 /**
- * print_S - custom format specifier
+ * print_S - this prints a custom format specifier
  * @ap: argument pointer
  * @params: the parameters struct
  *
